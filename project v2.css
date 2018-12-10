@@ -1,0 +1,68 @@
+body{
+  background-color: floralwhite;
+}
+
+h1{
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  color: maroon;
+  border-radius:
+  margin: -10px;
+
+}
+
+.navbar-brand {
+  padding:10px;
+  background: rgba(0,0,0,0.5);
+  display: inline;
+  text-align: center;
+}
+
+.imgBck{
+  background-image: url('./images/COBB.jpg') no-repeat;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+
+.monthly{
+  background-image: url('./images/COBB.jpg');
+  background-repeat: no-repeat;
+}
+
+img{
+  border: 20px solid black;
+  margin: 30px;
+}
+.genre{
+  padding: 20px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  float: right
+}
+
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+}
+
+#social-buttons button {
+  color:white;
+}
