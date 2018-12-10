@@ -2,25 +2,50 @@ body{
   background-color: floralwhite;
 }
 
-h1{
+
+.topbar__left-area .toggleMenu .icon {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url(//media.yoox.biz/ytos/resources/THEOUTNET/images/icons/hamburger.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin-top: -4px;
+}
+
+.topbar__middle-area{
   font-size: 75px;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
   color: maroon;
   border-radius:
   margin: -10px;
-
 }
 
 .navbar-brand {
-  padding:10px;
-  background: rgba(0,0,0,0.5);
   display: inline;
   text-align: center;
 }
 
+table {
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  border: 300px;
+  margin: 10px;
+  border-color: white;
+  font-size: 20px;
+}
+
 .imgBck{
   background-image: url('./images/COBB.jpg') no-repeat;
+}
+
+.btn-default{
+  padding:0px 10px 0px 10px;
+  display:inline;
 }
 
 ul {
