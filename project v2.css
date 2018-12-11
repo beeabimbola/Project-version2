@@ -39,9 +39,15 @@ table {
   font-size: 20px;
 }
 
-.imgBck{
-  background-image: url('./images/COBB.jpg') no-repeat;
+.monthly{
+  text-align: center;
+  font-size: 30px;
 }
+
+.winner{
+text-align: center;
+}
+
 
 .btn-default{
   padding:0px 10px 0px 10px;
@@ -56,11 +62,6 @@ li {
   display: inline;
   padding: 0px 10px 0px 10px;
 }
-
-
-.monthly{
-  background-image: url('./images/COBB.jpg');
-  background-repeat: no-repeat;
 }
 
 img{
@@ -90,4 +91,10 @@ img{
 
 #social-buttons button {
   color:white;
+}
+
+
+.about {
+  text-align: center;
+  text-decoration: underline;
 }
